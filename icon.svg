@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#0E0C10"/>
+  <defs>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3DDA6"/>
+      <stop offset="0.5" stop-color="#C9A264"/>
+      <stop offset="1" stop-color="#8A6A3A"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A0FF"/>
+      <stop offset="1" stop-color="#7A45E0"/>
+    </linearGradient>
+    <linearGradient id="right" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B3FC4"/>
+      <stop offset="1" stop-color="#3A1E78"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFE7B0"/>
+      <stop offset="0.6" stop-color="#F7C46A"/>
+      <stop offset="1" stop-color="#F7C46A" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(64 64) scale(0.27) translate(-256 -256)">
+    <circle cx="256" cy="256" r="160" fill="none" stroke="url(#brass)" stroke-width="22"/>
+    <path d="M256 54 L272 104 L256 118 L240 104 Z M256 458 L272 408 L256 394 L240 408 Z M54 256 L104 240 L118 256 L104 272 Z M458 256 L408 240 L394 256 L408 272 Z" fill="url(#brass)"/>
+    <path d="M256 70 L256 442 L186 250 Z" fill="url(#left)"/>
+    <path d="M256 70 L326 250 L256 442 Z" fill="url(#right)"/>
+    <path d="M256 70 L222 250 L256 442 L186 250 Z" fill="#E2CCFF" fill-opacity="0.35"/>
+    <path d="M256 70 L326 250 L256 442 L186 250 Z" fill="none" stroke="#F3DDA6" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M256 330 C226 302 230 268 250 240 C250 260 262 264 268 252 C280 278 288 306 256 330 Z" fill="url(#flame)"/>
+    <path d="M256 320 C243 307 245 290 256 276 C264 290 269 306 256 320 Z" fill="#FFF6DE"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+:root { --bg: #0E0C10; --ink: #F4ECDD; --muted: #C9BFAE; --gold: #F3DDA6; --violet: #C9A0FF; }
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 48px 16px 64px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 32px; }
+header img { width: 48px; height: 48px; }
+header a { color: var(--gold); text-decoration: none; font-size: 22px; letter-spacing: 0.02em; }
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; color: var(--gold); font-weight: normal; }
+h2 { font-size: 21px; margin: 32px 0 8px; color: var(--gold); font-weight: normal; }
+p, li { color: var(--ink); }
+.muted { color: var(--muted); font-size: 15px; }
+a { color: var(--violet); }
+a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
